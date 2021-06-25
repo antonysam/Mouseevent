@@ -6,7 +6,9 @@
 ```
 Actions act = new Actions(driver);
 act.moveToElement(d.findElement(By.xpath("//a[@id='highlight-addons']"))).build().perform();
-build() -> method instances the object 
-perform() -> performs the function
+
+build() -> Final method for compiling all listed options into a single option
+
+perform() -> performs the action object designed 
 
 ```
